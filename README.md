@@ -10,20 +10,37 @@ Author: Richard Foltyn
 
 ## Course outline for Part 2
 
-| Week | Day | Title | Links | 
-|------|-----|-------|---------------|
-| 39   | Wed | Introduction to git & GitHub | [Lecture slides](lecture1/slides1.pdf), [Solutions](lecture1/solutions/) |
-|      | Fri | Introduction to git & GitHub | [Lecture slides](lecture1/slides1.pdf), [Solutions](lecture1/solutions/) |
-| 40   | Wed | Assignment Q&A               | N/A |
-| 41   | Wed | Introduction to pandas       | [Lecture slides](lecture2/slides2.pdf), [Notebook](lecture2/lecture2.ipynb), [Notebook as PDF](lecture2/lecture2.pdf) |
-|      | Fri | Data cleaning & strings      | [Exercises](workshop2/workshop2.pdf), [Notebook](workshop2/workshop2.ipynb) |
-
+| Week | Day | Title | Notes & Exercises | Solutions |
+|------|-----|-------|----------------------|------------------------------------------|
+| 39   | Wed | Introduction to git & GitHub | [Lecture slides](lecture1/slides1.pdf) | [Solutions](lecture1/solutions/) |
+|      | Fri | Introduction to git & GitHub | [Lecture slides](lecture1/slides1.pdf) | [Solutions](lecture1/solutions/) |
+| 40   | Wed | Assignment Q&A               | N/A | |
+| 41   | Wed | Introduction to pandas       | [Slides](lecture2/slides2.pdf), [Notebook](lecture2/lecture2.ipynb), [PDF](lecture2/lecture2.pdf) | |
+|      | Fri | Data cleaning & strings      | [Notebook](workshop2/workshop2.ipynb), [PDF](workshop2/workshop2.pdf) | [Notebook](workshop2/workshop2-solution.ipynb), [PDF](workshop2/workshop2-solution.pdf)
+| 42   | Wed | Aggregation & time series    | [Notebook](lecture3/lecture3.ipynb), [PDF](lecture3/lecture3.pdf) | |
 
 ## Forking & Cloning
 
-- Click on the ![Fork](images/fork.png) icon to fork this repository (create your own personal copy)
-- Click on the ![Code](images/code.png) icon to clone the repository to your computer
-- Select HTTPS or SSH depending on your authentication method (HTTPS for Windows, SSH for Mac)
+### Forking
+
+1. Click on the ![Fork](images/fork.png) icon to fork this repository (create your own personal copy)
+2. You need to click on `Sync Fork` to get new commits made to this repository into your forked version.
+
+### Cloning
+
+1. Click on the ![Code](images/code.png) icon to clone the repository to your computer
+2. Select HTTPS or SSH depending on your authentication method (HTTPS for Windows, SSH for Mac) and copy the URL.
+3. You can clone the repository directly in Visual Studio Code, or use the command line:
+
+    _Windows:_
+    ```bash
+    git clone https://github.com/richardfoltyn/TECH2-H24.git
+    ```
+    _Mac (using SSH keys):_
+    ```bash
+    git clone git@github.com:richardfoltyn/TECH2-H24.git
+    ```
+
 
 
 
