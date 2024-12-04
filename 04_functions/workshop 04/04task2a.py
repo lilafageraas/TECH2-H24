@@ -26,15 +26,14 @@ def effective_interest_rate(r, n):
     """
     return (1+ (r/n))**n - 1
 
-if  
-   r = 0.09
+if  r == 0.09:
     
     #option A
     print(f'Option (a): annual interest rate of {r*100} added each quarter')
     eff_rate = effective_interest_rate (r, 4)
     print(f'the effective interest is {100*eff_rate:.2f} %')
     
-    print()
+    print(0.09)
     
     #option B
     eff_rate = effective_interest_rate (r, 12)
